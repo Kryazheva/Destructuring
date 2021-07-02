@@ -3,8 +3,7 @@ import getCharacter, { character } from '../app';
 
 
 test('Проверка деструктурированного объекта', () => {
-  const anwear = getCharacter(character);
-  expect(anwear).toEqual([
+  expect(getCharacter(character)).toEqual([
     {
       id: 8,
       name: 'Двойной выстрел',

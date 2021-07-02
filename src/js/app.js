@@ -27,7 +27,7 @@ export const character = {
 
 // eslint-disable-next-line no-unused-vars
 const getCharacter = ({ special }) => {
-  special.map(({
+  return special.map(({
     id, name, icon, description,
   }) => ({
     id, name, icon, description: description || 'Описание недоступно',
